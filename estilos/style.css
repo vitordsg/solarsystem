@@ -15,6 +15,18 @@
     box-sizing: border-box;
 }
 
+/* Configuração do Body */
+body, html {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+
+
 
 
 /* Configuração do Header */
@@ -33,10 +45,13 @@ div#sistemasolar > h1 {
     text-align: center;
     font-family: 'Galaxy', Times, serif;
     font-size: 2.5em;
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.397);
 
     background-color: rgb(0, 48, 179);
     color:white;
     border-radius: 10px;
+    box-shadow: 0px 1px 55px rgb(0, 0, 0);
+
 }
 
 
@@ -48,19 +63,29 @@ div#sub > p {
     font-family: 'Galaxy', Times, serif;
     text-align: center;
     font-size: 1em;
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.397);
 
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 48, 179);
     border-radius: 10px;
 }
 
 
+section#planetas > div#imageSol {
+    display: block;
+    margin-top: 150px;
 
-body, html {
-    background: url('../imagens/sky-star.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 100vh;
-    width: 100vw;
-    
+
+    background: url(../imagens/sun.png) no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 200px;
 }
+
+section#planetas > div#sol {
+    background-color: white;
+}
+
+
+
+
