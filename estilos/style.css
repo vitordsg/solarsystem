@@ -16,15 +16,42 @@
 }
 
 
-header > h1 {/* Titulo do Site */
-    font-family: 'Galaxy',Times, serif;
-    text-align: center;
-    color: white;
+
+/* Configuração do Header */
+header {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    max-width: 300px;
+     
 }
 
-header > p {
+
+
+/* Titulo do site 'Sistema Solar' */
+div#sistemasolar > h1 {
+    text-align: center;
     font-family: 'Galaxy', Times, serif;
-    color: white;
+    font-size: 2.5em;
+
+    background-color: rgb(0, 48, 179);
+    color:white;
+    border-radius: 10px;
+}
+
+
+
+/* Paragrafo 'Os planetas do Sistema Solar' */
+div#sub > p {
+    
+    margin-top: 150px;
+    font-family: 'Galaxy', Times, serif;
+    text-align: center;
+    font-size: 1em;
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
 
 
