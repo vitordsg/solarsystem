@@ -1,0 +1,19 @@
+/* Configuração do Header */
+header {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+
+/* Titulo do site 'Sistema Solar' */
+.titulo-h1 {
+  text-align: center;
+  font-family: "Galaxy", Times, serif;
+  font-size: 5.5em;
+  text-shadow: 5px 5px 0px rgba(255, 255, 255, 0.397);
+
+  height: 100px;
+
+  color: white;
+  border-radius: 10px;
+}
